@@ -49,7 +49,7 @@ func main() {
 	}()
 
 	// /auth is our authentication endpoint
-	http.HandleFunc("/auth", Auth)
+	http.HandleFunc("/", Auth)
 
 	// start the server on port 3000
 	log.Fatal(http.ListenAndServe(":3000", nil))

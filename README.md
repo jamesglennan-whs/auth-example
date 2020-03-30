@@ -2,9 +2,9 @@
 
 This is used to test out prospective API gateways by 'dummying' a login process for token Authentication.
 
-Requests are sent to port `3000` with path `/auth`
+Requests are sent to port `3000`
 
-Please send a request using 'curl -L -c cookies -v localhost:3000/auth -H 'User: user1' -H 'Pass: password1'
+Please send a request using 'curl -L -c cookies -v localhost:3000 -H 'User: user1' -H 'Pass: password1'
 
 Or using the user name `user2/password2`
 User 1's token will contain tenantA and User 2's will be tenantB
